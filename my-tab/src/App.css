@@ -1,0 +1,52 @@
+body{
+background-color: black;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; 
+  justify-content: space-around;
+}
+
+.video-wrapper {
+  width: 640px; 
+  margin-bottom: 20px;
+  border-radius: 200px; 
+}
+.video-info {
+  text-align: center;
+  
+}
+.head{
+  color: aliceblue;
+  font-style: inherit;
+  
+}
+.video-player {
+ flex-direction:row;
+ margin-bottom: 60px;
+  margin-left: 2px;
+}
+.Control{
+  margin-left: 250px;
+  margin-bottom: 100px;
+}
+.vid{
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.default{
+  color:bisque;
+  display: flex;
+ 
+  border-radius: 50px;
+}
+.Vid{
+  border: 2px solid #ddd; 
+  padding: 10px;
+  margin-left: 500px;
+  border-collapse: initial;
+  border-spacing: 15px 50px;
+}
+
